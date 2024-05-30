@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etxea</title>
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENU -->
+    <div id="menu-container"></div>
+    <!-- Greed mostrar items (Herramienta filtrar + items) -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Columna de un tercio para la herramienta de filtrado -->
+            <div class="col-md-4 col-sm-12 mb-5">
+                <div class="border border-3 border-dark rounded p-4 shadow shadow-lg">
+                    <!-- Formulario de filtrado y ordenado -->
+                    <form id="filter-form">
+                        <div class="mb-3">
+                            <label for="category" class="form-label">Categoria:</label>
+                            <select class="form-select" id="category">
+                                <option value="all">Denak</option>
+                                <option value="category1">Categoria 1</option>
+                                <option value="category2">Categoria 2</option>
+                                <option value="category3">Categoria 3</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="min-price" class="form-label">Min Price:</label>
+                            <input type="number" class="form-control" id="valorminimo" placeholder="Min Price">
+                        </div>
+                        <div class="mb-3">
+                            <label for="max-price" class="form-label">Max Price:</label>
+                            <input type="number" class="form-control" id="valormaximo" placeholder="Max Price">
+                        </div>
+                        <div class="mb-3">
+                            <label for="ordenar" class="form-label">Kontaktuak ordenatu</label>
+                            <select class="form-select" id="ordenar">
+                                <option value="default">Lehenetsia</option>
+                                <option value="Mayor">Haundienetik txikienera</option>
+                                <option value="Menor">Txikienetik haundienera</option>
+                            </select>
+                        </div>
+                        <button type="button" onclick="filtrar()" class="btn btn-primary">Filtroak ezarri</button>
+                        <button type="button" onclick="limpiar()" class="btn btn-primary">Filtroak garbitu</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Columna de dos tercios para los items -->
+            <div class="container col-sm-8">
+                <div id="card-container" class="row">
+                    <!-- Aquí se agregarán los items -->
+                </div>
+            </div>
+        </div>
+        <!-- Items filtrados y ordenados -->
+        <div class="row mt-5" id="filtered-items">
+            <!-- Aquí se agregarán los items filtrados -->
+        </div>
+    </div>
+
+    <!-- LLAMADAS A JAVA SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+    <script src="filtrar.js"></script>
+    <script src="inc/includes.js"></script>
+</body>
+<footer>
+    <!-- Pie de página -->
+    <div id="footer-container"></div>
+</footer>
+</html>
+
+
+

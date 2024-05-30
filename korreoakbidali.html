@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korreoa bidali</title>
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENU -->
+    <div id="menu-container"></div>
+    <!-- Formulario correo masivo -->
+    <div class="container mt-5">
+        <h1 class="text-center">Korreoak bidali:</h1>
+        <form id="emailForm" class="mx-auto mt-4" style="max-width: 500px;">
+            <div class="mb-3">
+                <label for="from" class="form-label">Nork:</label>
+                <input type="email" class="form-control" id="from" name="from" required>
+            </div>
+            <div class="mb-3">
+                <label for="to" class="form-label">Nori (komak erabili korreo ezberdinak bereizteko):</label>
+                <input type="text" class="form-control" id="to" name="to" required>
+            </div>
+            <div class="mb-3">
+                <label for="subject" class="form-label">Asuntoa:</label>
+                <input type="text" class="form-control" id="subject" name="subject" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mezua:</label>
+                <textarea class="form-control" id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Bidali</button>
+        </form>
+    </div>
+
+   <!-- LLAMADAS A JAVA SCRIPT -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+   <script src="&&"></script>
+   <script src="inc/includes.js"></script>
+</body>
+<footer>
+     <!-- Pie de página -->
+     <div id="footer-container"></div>
+</footer>
+</html>

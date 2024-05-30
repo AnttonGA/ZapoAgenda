@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "cute-kawaii-mushroom-chibi-mascot-cartoon-style-vector.jpg",
+        "title": "1000",
+        "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "link": "#",
+        "price": 10.99,
+        "category": "category1"
+    },
+    {
+        "id": 2,
+        "imgSrc": "cute-kawaii-mushroom-chibi-mascot-cartoon-style-vector.jpg",
+        "title": "1001",
+        "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "link": "#",
+        "price": 15.99,
+        "category": "category2"
+    },
+    {
+        "id": 3,
+        "imgSrc": "cute-teddy-bear-illustrator-vector-600nw-2355071411.webp",
+        "title": "1002",
+        "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "link": "#",
+        "price": 20.99,
+        "category": "category3"
+    },
+    {
+        "id": 4,
+        "imgSrc": "cute-kawaii-mushroom-chibi-mascot-cartoon-style-vector.jpg",
+        "title": "1003",
+        "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "link": "#",
+        "price": 12.99,
+        "category": "category1"
+    },
+    {
+        "id": 5,
+        "imgSrc": "cute-kawaii-mushroom-chibi-mascot-cartoon-style-vector.jpg",
+        "title": "1004",
+        "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "link": "#",
+        "price": 8.99,
+        "category": "category2"
+    },
+    {
+        "id": 6,
+        "imgSrc": "cute-kawaii-mushroom-chibi-mascot-cartoon-style-vector.jpg",
+        "title": "1005",
+        "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "link": "#",
+        "price": 18.99,
+        "category": "category3"
+    }
+]
